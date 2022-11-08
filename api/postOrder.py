@@ -41,4 +41,5 @@ def placeMarketOrder(market:str, side:str, size:float):
         print(f'Error: {e}')
     sleep(2)
 
+
 ## placeLimitOrder('BTC-PERP', 'buy', 20000, 0.0001)
